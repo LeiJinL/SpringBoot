@@ -1,0 +1,16 @@
+#设置端口号
+server:
+  port: 9090
+  #设置context-path
+  servlet:
+    context-path: /boot
+
+#设置视图解析器
+spring:
+  mvc:
+    view:
+      #前缀
+      #  这里的  / = src/main/webapp
+      prefix: /
+      #后缀
+      suffix: .jsp
